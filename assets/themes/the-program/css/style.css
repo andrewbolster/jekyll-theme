@@ -548,10 +548,10 @@ html {
   color: #2d2d2d;
 }
 #page {
-  background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
-  background-repeat: repeat;
-  background-position: 0 0;
-  background-color: #e2e2de;
+  background: url('/assets/themes/the-program/skin/background.jpg');
+  background-repeat: no-repeat;
+  background-position: centre top;
+  background-attachment: fixed;
 }
 .body .unit-body {
   background-color: #fafafa;
@@ -727,7 +727,6 @@ pre {
 }
 .unit-article img {
   display: block;
-  margin-left: auto;
   margin-left: auto;
 }
 .unit-article img.left {
