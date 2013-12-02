@@ -24,13 +24,12 @@
 			border-top: 1px solid rgba(255,255,255,0.6);
 			padding: @line-height * 1px;
 		}
+    .h1 {
+      line-height: normal;
+      }
 	}
 
 	.the-footer {
-		background-color: #1a1a1a;
-		background-color: rgba(21, 25, 25, 0.8);
-		color: #fafafa;
-		color: rgba(250, 250, 250, 0.8);
 		a {
 			&:link {
 				color: @accent-color;
@@ -87,8 +86,8 @@
 					}
 					a:link {}
 					a:hover {
-						background-color: #fff04a;
-						color: lighten(@main-font-color, 10%);
+						background-color: @accent-color;
+						color: lighten(@main-font-color, 20%);
 					}
 				}
 				li:nth-child(2) { border-width: 0 1px; }
@@ -145,7 +144,6 @@
 	}
 
 	.the-footer {
-		background-color: transparent;
 		color: @main-font-color;
 
 		position: relative;
