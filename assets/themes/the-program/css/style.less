@@ -8,6 +8,7 @@
 @subtle-bg: #515151;
 @main-font-color: #2d2d2d;
 @accent-color: #c26164;
+@bg-img: "/assets/themes/the-program/skin/background.jpg";
 
 /* GLOBAL
 --------------------------------------------------------------------------------- */
@@ -16,10 +17,10 @@ html {
 }
 
 #page {
-	background: url('@{noise-100-90-5}');
-	background-repeat: repeat;
-	background-position: 0 0;
-	background-color: #e2e2de;
+	background: url('@{bg-img}');
+	background-repeat: no-repeat;
+	background-position: centre top;
+	background-attachment: fixed;
 }
 
 .body {
